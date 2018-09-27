@@ -20,13 +20,13 @@ types:
       recipient: string | integer
 
 /notifications:
-  displayName: Notifications
   description: |
     Working with notifications:
     * Creating notifications
   post:
     description: |
       Create a new Notification
+    displayName: Create notification
     body:
       application/json:
         type: Notification
